@@ -42,6 +42,8 @@ def deal_list(config_list, json_src, file_ptr, parent=""):
 
 
 def deal_json(json_src, file_ptr):
+    file_ptr.write("|参数名称|参数含义|类型|备注|\n")
+    file_ptr.write("|:---|:---|:---|:---|\n")
     config_list = []
     if type(json_src) == dict:
         deal_dict(config_list, json_src, file_ptr)

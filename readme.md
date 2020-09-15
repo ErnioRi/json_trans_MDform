@@ -1,4 +1,5 @@
 #使用方法
+
 **示例：**
 >python json_deal.py ./json_src.txt
 
@@ -30,37 +31,8 @@ PROFESSIONAL"}],"filter":false}},"sizer":[{"opc":"+","code":"S6FHA","text":"后�
 **输出格式：**
 
 ```text
-|oes| |array||
-|oes::label| |string||
-|oes::oe_num| |int||
-|oes::seq_num| |int||
-|oes::std_name| |string||
-|oes| |array||
-|oes::label| |string||
-|oes::oe_num| |int||
-|oes::seq_num| |int||
-|oes::std_name| |string||
-|oes::price_4s| |float||
-|oes::oe_id| |int||
-|oes::oe_code| |string||
-|oes::oe_name| |string||
-|oes::product_period| |string||
-|oes::sa_code1| |int||
-|oes::filter| |bool||
-|oes::md5| |string||
-|oes::replace_oe_id| |int||
-|catalog_sa| |dict||
-|catalog_sa::3304890| |dict||
-|catalog_sa::3304890::sa_code_info| |array||
-|catalog_sa::3304890::sa_code_info::sa_code_opc| |string||
-|catalog_sa::3304890::sa_code_info::textcode_text| |string||
-|catalog_sa::3304890::sa_code_info::sa_code_text| |string||
-|catalog_sa::3304890::filter| |bool||
-|sizer| |array||
-|sizer::opc| |string||
-|sizer::code| |string||
-|sizer::text| |string||
-|status| |int||
+|参数名称|参数含义|类型|备注|
+|:---|:---|:---|:---|
 |oes| |array||
 |oes::label| |string||
 |oes::oe_num| |int||
@@ -87,4 +59,35 @@ PROFESSIONAL"}],"filter":false}},"sizer":[{"opc":"+","code":"S6FHA","text":"后�
 |sizer::code| |string||
 |sizer::text| |string||
 |status| |int||
+
 ```
+**输出展示：**
+
+|参数名称|参数含义|类型|备注|
+|:---|:---|:---|:---|
+|oes| |array||
+|oes::label| |string||
+|oes::oe_num| |int||
+|oes::seq_num| |int||
+|oes::std_name| |string||
+|oes::price_4s| |float||
+|oes::oe_id| |int||
+|oes::oe_code| |string||
+|oes::oe_name| |string||
+|oes::product_period| |string||
+|oes::sa_code1| |int||
+|oes::filter| |bool||
+|oes::md5| |string||
+|oes::replace_oe_id| |int||
+|catalog_sa| |dict||
+|catalog_sa::3304890| |dict||
+|catalog_sa::3304890::sa_code_info| |array||
+|catalog_sa::3304890::sa_code_info::sa_code_opc| |string||
+|catalog_sa::3304890::sa_code_info::textcode_text| |string||
+|catalog_sa::3304890::sa_code_info::sa_code_text| |string||
+|catalog_sa::3304890::filter| |bool||
+|sizer| |array||
+|sizer::opc| |string||
+|sizer::code| |string||
+|sizer::text| |string||
+|status| |int||
