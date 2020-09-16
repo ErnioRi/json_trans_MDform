@@ -1,24 +1,14 @@
 |参数名称|参数含义|类型|备注|
 |:---|:---|:---|:---|
+|results| |array||
+|results::oe_code| |string||
+|results::products| |array||
+|results::products::merchant_code| |string||
+|results::products::partner| |string||
+|results::products::product_code| |string||
+|results::products::product_id| |string||
+|results::products::product_imgid| |string||
+|results::products::product_name| |string||
+|results::products::product_type| |string||
+|results::productsets| |array||
 |status| |int||
-|oes| |array||
-|oes::epc_model_name| |string||
-|oes::catalogs| |array||
-|oes::catalogs::cat_id| |int||
-|oes::catalogs::cat_code| |string||
-|oes::catalogs::cat_name| |string||
-|oes::catalogs::cat_level| |int||
-|oes::seq_num| |int||
-|oes::label| |string||
-|oes::oe_code| |string||
-|oes::oe_name| |string||
-|oes::oe_id| |int||
-|oes::oe_qty| |string||
-|oes::price_4s| |float||
-|oes::price_date| |string||
-|oes::std_name| |string||
-|oes::image_name| |string||
-|oes::left| |int||
-|oes::top| |int||
-|oes::right| |int||
-|oes::bottom| |int||

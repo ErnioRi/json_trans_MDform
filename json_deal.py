@@ -33,6 +33,8 @@ def deal_dict(config_list, json_src, file_ptr, parent=""):
 
 
 def deal_list(config_list, json_src, file_ptr, parent=""):
+    if json_src.__len__() == 0:
+        return
     if type(json_src[0]) == list:
         for i in json_src:
             deal_list(config_list, i, file_ptr, parent)
