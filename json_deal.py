@@ -4,7 +4,6 @@ import sys
 
 def deal_dict(config_list, json_src, file_ptr, parent=""):
     for i in json_src:
-        print("in dict:\n" + i + str(json_src[i]))
         this_config = parent + i
         duplicate_flag = 0
         for it_config in config_list:
@@ -20,6 +19,8 @@ def deal_dict(config_list, json_src, file_ptr, parent=""):
                 formal_type = "int"
             elif type(json_src[i]) == bool:
                 formal_type = "bool"
+            elif type(json_src[i]) == float:
+                formal_type = "float"
             else:
                 print("unexpected type: " + str(type(json_src[i])))
                 formal_type = str(type(json_src[i])).split(' ')[1].strip('>').strip("'")
@@ -37,7 +38,6 @@ def deal_list(config_list, json_src, file_ptr, parent=""):
             deal_list(config_list, i, file_ptr, parent)
     if type(json_src[0]) == dict:
         for i in json_src:
-            print("in list to dict:\n" + str(i))
             deal_dict(config_list, i, file_ptr, parent)
 
 

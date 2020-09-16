@@ -1,15 +1,284 @@
-{"oes":[{"label":"01","oe_num":1,"seq_num":1,"std_name":"多媒体播放器","price_4s":26100.010000,"oe_id":724967,"oe_code":"65 12
-9 351 688","oe_name":"DVD 音频播放器
-后座区","product_period":"_201407","sa_code1":3304890,"filter":false,"md5":"F38937D2BDECF6EF10616788A757D47D","replace_oe_id":726694},{"label":"01","oe_num":1,"seq_num":2,"std_name":"多媒体播放器","price_4s":26100.010000,"oe_id":726694,"oe_code":"65
-12 9 365 772","oe_name":"DVD 音频播放器
-后座区","product_period":"_201608","sa_code1":3304890,"filter":false,"md5":"6050BF6E1F43220FBE1E96DA1C9362F7","replace_oe_id":726992},{"label":"01","oe_num":1,"seq_num":3,"std_name":"多媒体播放器","price_4s":29400,"oe_id":726992,"oe_code":"65
-12 9 368 387","oe_name":"DVD 音频播放器
-后座区","product_period":"_201608","sa_code1":3304890,"filter":false,"md5":"59D8A0632F702C4DA33DE05ED5DF83D4"},{"label":"01","oe_num":1,"seq_num":4,"std_name":"多媒体播放器","price_4s":22700.010000,"oe_id":718660,"oe_code":"65
-12 9 291 376","oe_name":"保修 DVD 音频播放器
-后座区","product_period":"_201608","sa_code1":3304890,"filter":false,"md5":"8CB56B7955DDA388840F1A848BDBCEB2"},{"label":"02","oe_num":1,"seq_num":5,"std_name":"","price_4s":314,"oe_id":705222,"oe_code":"65
-12 9 201
-039","oe_name":"盖罩","product_period":"_201608","sa_code1":3304890,"filter":false,"md5":"28FAD7CF496E75F23C0127BDE5995D05"},{"label":"03","oe_num":1,"seq_num":6,"std_name":"卡扣","price_4s":55,"oe_id":697067,"oe_code":"65
-83 9 165
-318","oe_name":"调节元件","product_period":"_201608","sa_code1":3304890,"filter":false,"md5":"0628F5E557C398FE9C2EAC78E27D5B81"}],"catalog_sa":{"3304890":{"sa_code_info":[{"sa_code_opc":"
-","textcode_text":"用于车辆及"},{"sa_code_opc":"+","sa_code_text":"S6FHA","textcode_text":"后座区视听设备
-PROFESSIONAL"}],"filter":false}},"sizer":[{"opc":"+","code":"S6FHA","text":"后座区视听设备 PROFESSIONAL"}],"status":0}
+{
+    "status": 0,
+    "oes": [
+        {
+            "epc_model_name": "CN115 - 新五菱宏光S ",
+            "catalogs": [
+                {
+                    "cat_id": 5014,
+                    "cat_code": "BE02-007",
+                    "cat_name": "BE02-007 - 发电机",
+                    "cat_level": 2
+                },
+                {
+                    "cat_id": 4958,
+                    "cat_code": "02",
+                    "cat_name": "02 - 起动机-发电机-点火线圈-电气-灯具",
+                    "cat_level": 1
+                }
+            ],
+            "seq_num": 1,
+            "label": "1",
+            "oe_code": "23868072",
+            "oe_name": "发电机总成",
+            "oe_id": 8156,
+            "oe_qty": "1",
+            "price_4s": 709.0,
+            "price_date": "0",
+            "std_name": "发电机",
+            "image_name": "c2f00afa07e6faada3ba50a5ba4a6f2b.png",
+            "left": 655,
+            "top": 2541,
+            "right": 711,
+            "bottom": 2597
+        },
+        {
+            "epc_model_name": "CN113 - 五菱宏光S1",
+            "catalogs": [
+                {
+                    "cat_id": 16142,
+                    "cat_code": "WJ02-515",
+                    "cat_name": "WJ02-515 - 发电机",
+                    "cat_level": 2
+                },
+                {
+                    "cat_id": 16079,
+                    "cat_code": "02",
+                    "cat_name": "02 - 起动机-发电机-点火线圈-电气-灯具",
+                    "cat_level": 1
+                }
+            ],
+            "seq_num": 1,
+            "label": "1",
+            "oe_code": "23868072",
+            "oe_name": "发电机总成",
+            "oe_id": 19461,
+            "oe_qty": "1",
+            "price_4s": 709.0,
+            "price_date": "0",
+            "std_name": "发电机",
+            "image_name": "cddcb59b896b3d6296972c0a9d6f43ad.png",
+            "left": 655,
+            "top": 2541,
+            "right": 711,
+            "bottom": 2597
+        },
+        {
+            "epc_model_name": "CN101 - 五菱宏光2014款",
+            "catalogs": [
+                {
+                    "cat_id": 27427,
+                    "cat_code": "WH02-514",
+                    "cat_name": "WH02-514 - 发电机",
+                    "cat_level": 2
+                },
+                {
+                    "cat_id": 27360,
+                    "cat_code": "02",
+                    "cat_name": "02 - 起动机-发电机-点火线圈-电气-灯具",
+                    "cat_level": 1
+                }
+            ],
+            "seq_num": 1,
+            "label": "1",
+            "oe_code": "23868072",
+            "oe_name": "发电机总成",
+            "oe_id": 24456,
+            "oe_qty": "1",
+            "price_4s": 709.0,
+            "price_date": "0",
+            "std_name": "发电机",
+            "image_name": "09cee4d343b5d6150534be4c8775e793.png",
+            "left": 1116,
+            "top": 1365,
+            "right": 1172,
+            "bottom": 1421
+        },
+        {
+            "epc_model_name": "CN112 - 五菱宏光S",
+            "catalogs": [
+                {
+                    "cat_id": 29107,
+                    "cat_code": "WH02-514",
+                    "cat_name": "WH02-514 - 发电机",
+                    "cat_level": 2
+                },
+                {
+                    "cat_id": 29037,
+                    "cat_code": "02",
+                    "cat_name": "02 - 起动机-发电机-点火线圈-电气-灯具",
+                    "cat_level": 1
+                }
+            ],
+            "seq_num": 1,
+            "label": "1",
+            "oe_code": "23868072",
+            "oe_name": "发电机总成",
+            "oe_id": 27944,
+            "oe_qty": "1",
+            "price_4s": 709.0,
+            "price_date": "0",
+            "std_name": "发电机",
+            "image_name": "09cee4d343b5d6150534be4c8775e793.png",
+            "left": 1116,
+            "top": 1365,
+            "right": 1172,
+            "bottom": 1421
+        },
+        {
+            "epc_model_name": "CN110V - 五菱宏光V",
+            "catalogs": [
+                {
+                    "cat_id": 2843,
+                    "cat_code": "BK02-005",
+                    "cat_name": "BK02-005 - 点火线圈总成",
+                    "cat_level": 2
+                },
+                {
+                    "cat_id": 2789,
+                    "cat_code": "02",
+                    "cat_name": "02 - 起动机-发电机-点火线圈-电气-灯具",
+                    "cat_level": 1
+                }
+            ],
+            "seq_num": 5,
+            "label": "3",
+            "oe_code": "9002811",
+            "oe_name": "火花塞总成",
+            "oe_id": 5173,
+            "oe_qty": "4",
+            "price_4s": 13.0,
+            "price_date": "0",
+            "std_name": "火花塞",
+            "image_name": "e2685b9f70ba2c4e5f0c465ef53b5905.png",
+            "left": 665,
+            "top": 2766,
+            "right": 721,
+            "bottom": 2822
+        },
+        {
+            "epc_model_name": "CN115 - 新五菱宏光S ",
+            "catalogs": [
+                {
+                    "cat_id": 5013,
+                    "cat_code": "BE02-006",
+                    "cat_name": "BE02-006 - 点火线圈总成",
+                    "cat_level": 2
+                },
+                {
+                    "cat_id": 4958,
+                    "cat_code": "02",
+                    "cat_name": "02 - 起动机-发电机-点火线圈-电气-灯具",
+                    "cat_level": 1
+                }
+            ],
+            "seq_num": 4,
+            "label": "3",
+            "oe_code": "9002811",
+            "oe_name": "火花塞总成",
+            "oe_id": 8155,
+            "oe_qty": "4",
+            "price_4s": 13.0,
+            "price_date": "0",
+            "std_name": "火花塞",
+            "image_name": "7eae5e6b3e1c7e7300d9fd0d82700b3d.png",
+            "left": 665,
+            "top": 2766,
+            "right": 721,
+            "bottom": 2822
+        },
+        {
+            "epc_model_name": "N350P - 五菱荣光新卡",
+            "catalogs": [
+                {
+                    "cat_id": 7619,
+                    "cat_code": "BD02-009",
+                    "cat_name": "BD02-009 - 点火线圈总成",
+                    "cat_level": 2
+                },
+                {
+                    "cat_id": 7562,
+                    "cat_code": "02",
+                    "cat_name": "02 - 起动机-发电机-点火线圈-电气-灯具",
+                    "cat_level": 1
+                }
+            ],
+            "seq_num": 3,
+            "label": "3",
+            "oe_code": "9002811",
+            "oe_name": "火花塞总成",
+            "oe_id": 11429,
+            "oe_qty": "4",
+            "price_4s": 13.0,
+            "price_date": "0",
+            "std_name": "火花塞",
+            "image_name": "73752966f03eda32f6ffc3d283f4463c.png",
+            "left": 665,
+            "top": 2766,
+            "right": 721,
+            "bottom": 2822
+        },
+        {
+            "epc_model_name": "CN120S - 五菱宏光S3",
+            "catalogs": [
+                {
+                    "cat_id": 9890,
+                    "cat_code": "CH02-007",
+                    "cat_name": "CH02-007 - 点火线圈总成",
+                    "cat_level": 2
+                },
+                {
+                    "cat_id": 9830,
+                    "cat_code": "02",
+                    "cat_name": "02 - 起动机-发电机-点火线圈-电气-灯具",
+                    "cat_level": 1
+                }
+            ],
+            "seq_num": 3,
+            "label": "3",
+            "oe_code": "9002811",
+            "oe_name": "火花塞总成",
+            "oe_id": 13080,
+            "oe_qty": "4",
+            "price_4s": 13.0,
+            "price_date": "0",
+            "std_name": "火花塞",
+            "image_name": "dfc9e26863732a6a343aa7c63fab3670.png",
+            "left": 665,
+            "top": 2766,
+            "right": 721,
+            "bottom": 2822
+        },
+        {
+            "epc_model_name": "CN113 - 五菱宏光S1",
+            "catalogs": [
+                {
+                    "cat_id": 15517,
+                    "cat_code": "WJ02-511",
+                    "cat_name": "WJ02-511 - 点火线圈总成",
+                    "cat_level": 2
+                },
+                {
+                    "cat_id": 15467,
+                    "cat_code": "02",
+                    "cat_name": "02 - 起动机-发电机-点火线圈-电气-灯具",
+                    "cat_level": 1
+                }
+            ],
+            "seq_num": 3,
+            "label": "3",
+            "oe_code": "9002811",
+            "oe_name": "火花塞总成",
+            "oe_id": 17696,
+            "oe_qty": "4",
+            "price_4s": 13.0,
+            "price_date": "0",
+            "std_name": "火花塞",
+            "image_name": "887e20018f214c211cfa87f18d74b76d.png",
+            "left": 665,
+            "top": 2766,
+            "right": 721,
+            "bottom": 2822
+        }
+    ]
+}
